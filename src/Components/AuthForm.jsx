@@ -1,7 +1,7 @@
 'use client';
 import React, { useState } from "react";
 import { HiEye, HiEyeOff } from 'react-icons/hi'; 
-import { UserAuth } from './AuthContext';  // Import UserAuth context
+import { UserAuth } from '../context/AuthContext';  // Import UserAuth context
 
 const AuthForm = () => {
   const { googleSignIn, emailSignUp, emailSignIn } = UserAuth();  // Use UserAuth for actual Firebase auth
